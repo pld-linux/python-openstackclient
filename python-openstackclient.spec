@@ -8,7 +8,7 @@
 Summary:	OpenStack Command-line Client
 Name:		python-openstackclient
 Version:	3.12.0
-Release:	0.1
+Release:	1
 License:	Apache
 Group:		Libraries/Python
 Source0:	http://tarballs.openstack.org/python-openstackclient/%{name}-%{version}.tar.gz
@@ -77,18 +77,18 @@ for the actual tool.
 %package -n python3-openstackclient
 Summary:	OpenStack Command-line Client
 Group:		Libraries/Python
-Requires:	python-babel >= 2.3.4
-Requires:	python-cinderclient >= 3.0.0
-Requires:	python-cliff >= 2.8.0
-Requires:	python-glanceclient >= 2.7.0
-Requires:	python-keystoneauth1 >= 3.0.1
-Requires:	python-keystoneclient >= 3.8.0
-Requires:	python-novaclient >= 9.0.0
-Requires:	python-openstacksdk >= 0.9.17
-Requires:	python-osc-lib >= 1.7.0
-Requires:	python-oslo.i18n >= 2.10
-Requires:	python-oslo.utils >= 3.20.0
-Requires:	python-six >= 1.9.0
+Requires:	python3-babel >= 2.3.4
+Requires:	python3-cinderclient >= 3.0.0
+Requires:	python3-cliff >= 2.8.0
+Requires:	python3-glanceclient >= 2.7.0
+Requires:	python3-keystoneauth1 >= 3.0.1
+Requires:	python3-keystoneclient >= 3.8.0
+Requires:	python3-novaclient >= 9.0.0
+Requires:	python3-openstacksdk >= 0.9.17
+Requires:	python3-osc-lib >= 1.7.0
+Requires:	python3-oslo.i18n >= 2.10
+Requires:	python3-oslo.utils >= 3.20.0
+Requires:	python3-six >= 1.9.0
 
 %description -n python3-openstackclient
 OpenStack Command-line Client.
