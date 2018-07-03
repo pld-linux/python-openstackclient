@@ -8,7 +8,7 @@
 Summary:	OpenStack Command-line Client
 Name:		python-openstackclient
 Version:	3.12.0
-Release:	1
+Release:	2
 License:	Apache
 Group:		Libraries/Python
 Source0:	http://tarballs.openstack.org/python-openstackclient/%{name}-%{version}.tar.gz
